@@ -359,6 +359,15 @@ section p {
     border-radius: 10px;
     outline: none;
 }
+.bot_right {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    padding-right: 8px;
+    gap: 4px;
+}
     
 /* Responsive */
 @media screen and (min-width: 481px) {

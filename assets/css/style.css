@@ -35,7 +35,8 @@ dir-col {
     flex-direction: column;
 }
 
-/* Common */
+/* Common */ 
+/* Mobile First */
 .top .sidebar_top {
     height: calc(100% - 60px);
 }

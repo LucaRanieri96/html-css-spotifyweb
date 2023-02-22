@@ -69,8 +69,17 @@ ul {
 }
 
 #padding_green_line {
-    padding-bottom: 3px;
-    border-bottom: 2px solid var(--detail);
+    position: relative;
+}
+#padding_green_line::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 1.5rem;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 3px;
+    background-color: var(--detail);
 }
 
 .circle {

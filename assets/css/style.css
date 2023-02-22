@@ -222,16 +222,37 @@ section p {
         width: calc(100% - 270px);
         overflow-y: auto;
     }
+    .container_side {
+        width: 84%;
+        margin: auto;
+    }
     .logo {
-        width: 60%
+        width: 60%;
+        margin: 1rem 0;
+    }
+    .navigation h3{
+        color: var(--light);
+        margin-top: 1rem;
+        margin-bottom: -1rem;
     }
     .navigation img {
         width: 1.5rem;
     }
-    .sbiro {
-        font-size: 20px;
-        
+    .sidebar .navigation ul {
+        margin-top: 20px;
     }
+    .sidebar .navigation ul li {
+        padding: 10px 0;
+    }
+    .sidebar .navigation ul li a {
+        color: var(--darkgrey);
+        font-weight: bold;
+    }
+
+    .sidebar .navigation ul li a:hover,
+    .sidebar .navigation ul li a:active {
+        color: var(--light);
+    } 
     
     #transparent {
         height: 110px;

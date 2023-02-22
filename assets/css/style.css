@@ -19,6 +19,7 @@ body {
     --grey: #c1c1c1;
     --light: #ffffff;
     --dark: #000000;
+    --darkgrey: #4d5157;
 }
 
 img {
@@ -53,8 +54,10 @@ ul {
     flex-wrap: wrap;
 }
 .container {
-    width: 90%;
+    width: 94%;
     margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .width_90 {
     width: 100%;
@@ -112,6 +115,7 @@ ul {
 .col_12 {
     width: 100%;
 }
+
 /* Common */
 /* Mobile First */
 .top {
@@ -170,17 +174,20 @@ footer.bottom {
 .nav_main a {
     color: var(--grey);
 }
-h3 {
-    font-size: 1rem;
-}
-h2,
 .row h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
     color: var(--light);
-    margin: 1rem 0;
+}
+h2 {
+    color: var(--light);
+    margin: 3rem 0;
 }
 .row p {
-    color: darkgray;
-    font-size: 0.8rem;
+    color: var(--darkgrey);
+    font-size: 0.7rem;
+    font-weight: 800;
+    margin-bottom: 0.7rem;
 }
 .row {
     text-align: center;

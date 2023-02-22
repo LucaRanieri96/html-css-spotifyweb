@@ -303,7 +303,7 @@ section p {
         color: var(--darkgrey);
         font-weight: bold;
     }
-
+    
     .download span:hover,
     .navigation span:hover,
     .sidebar .navigation ul li a:hover,
@@ -318,7 +318,9 @@ section p {
     .profile span {
         color: white;
     }
-
+    .sidebar i{
+        font-size: 3rem;
+    }
     hr,
     .sidebar .logo,
     .sidebar i,

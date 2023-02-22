@@ -68,6 +68,10 @@ ul {
     border-bottom: 2px solid var(--detail);
 }
 
+.circle {
+    border-radius: 50%;
+}
+
 .col_1 {
     width: calc(100% / 12 * 1);
 }

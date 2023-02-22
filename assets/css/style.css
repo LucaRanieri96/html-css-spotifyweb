@@ -24,3 +24,69 @@ body {
 img {
     max-width: 100%;
 }
+
+/* Utilities */
+
+d-flex {
+    display: flex;
+}
+
+dir-col {
+    flex-direction: column;
+}
+
+/* Common */
+.top .sidebar_top {
+    height: calc(100% - 60px);
+}
+.top .sidebar_bottom {
+    height: 60px;
+}
+.top {
+    height: calc(100vh - 70px);
+    display: flex;
+}
+
+.top > .sidebar {
+    width: 70px;
+    overflow: hidden;
+}
+
+.top > .content {
+    width: calc(100% -70px);
+    overflow-y: auto;
+}
+
+footer.bottom {
+    height: 70px;
+}
+/* Responsive */
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+/* debug */
+.debug .top {
+    background-color: aquamarine
+}
+
+.debug footer {
+    background-color: palegoldenrod;
+}
+.debug .sidebar {
+    background-color: black;
+}
+.debug .content{
+    background-color: palevioletred;
+}
+.debug .sidebar_bottom {
+    background-color: red;
+}

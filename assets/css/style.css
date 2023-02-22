@@ -27,11 +27,11 @@ img {
 
 /* Utilities */
 
-d-flex {
+.d_flex {
     display: flex;
 }
 
-dir-col {
+.dir_col {
     flex-direction: column;
 }
 
@@ -44,12 +44,15 @@ dir-col {
     height: 60px;
 }
 .top {
-    height: calc(100vh - 70px);
-    display: flex;
+    height: calc(100vh - 80px);
+}
+
+footer.bottom {
+    height: 80px;
 }
 
 .top > .sidebar {
-    width: 70px;
+    width: 40px;
     overflow: hidden;
 }
 
@@ -58,9 +61,6 @@ dir-col {
     overflow-y: auto;
 }
 
-footer.bottom {
-    height: 70px;
-}
 /* Responsive */
 @media screen and (min-width: 480px) {
 

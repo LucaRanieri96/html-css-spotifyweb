@@ -124,6 +124,34 @@ ul {
 .col_12 {
     width: 100%;
 }
+.hover_circle,
+.hover {
+    position: relative;
+}
+.hover_circle:hover::before,
+.hover:hover::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hover_circle:hover::before{
+    border-radius: 50%;
+}
+.hover_circle:hover::after,
+.hover:hover::after {
+    content: "\f144";
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* Common */
 /* Mobile First */
@@ -189,12 +217,14 @@ hr,
     font-size: 1rem;
     font-weight: 800;
 }
+
 .upgrade:hover {
     color: white;
     border: 1px solid white;
     cursor: pointer;
-    
+
 }
+
 .nav_main {
     margin: 1rem;
     display: flex;

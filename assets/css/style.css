@@ -37,8 +37,9 @@ img {
 
 .align-center {
     align-items: center;
-  }
-/* Common */ 
+}
+
+/* Common */
 /* Mobile First */
 .top {
     height: calc(100vh - 80px);
@@ -48,11 +49,12 @@ footer.bottom {
     height: 80px;
 }
 
-.top > .sidebar {
+.top>.sidebar {
     width: 40px;
     overflow: hidden;
 }
-.top > .content {
+
+.top>.content {
     width: calc(100% - 40px);
     overflow-y: auto;
 }
@@ -60,67 +62,103 @@ footer.bottom {
 .top .sidebar_top {
     height: calc(100% - 60px);
 }
+
 .top .sidebar_bottom {
     height: 60px;
 }
+.transparent {
+    background-color: var(--dark);
+    opacity: 90%;
+    height: 80px;
+    justify-content: flex-end;
+}
 
+.upgrade {
+    color: var(--light);
+    margin-right: 8px;
+    padding: 0.7rem 2rem;
+    border: 1px solid var(--light);
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
 /* Responsive */
 @media screen and (min-width: 481px) {
     .top {
         height: calc(100vh - 110px);
     }
-    
+
     footer.bottom {
         height: 110px;
     }
-    
-    .top > .sidebar {
+
+    .top>.sidebar {
         width: 270px;
         overflow: hidden;
     }
-    .top > .content {
+
+    .top>.content {
         width: calc(100% - 270px);
         overflow-y: auto;
     }
-    
+
+    #transparent {
+        height: 110px;
+    }
 }
 
 @media screen and (min-width: 769px) {
     .top {
         height: calc(100vh - 130px);
     }
-    
+
     footer.bottom {
         height: 130px;
     }
-    
-    .top > .sidebar {
+
+    .top>.sidebar {
         width: 330px;
         overflow: hidden;
     }
-    .top > .content {
+
+    .top>.content {
         width: calc(100% - 330px);
         overflow-y: auto;
     }
+
+    #transparent {
+        height: 130px;
+    }
+    
+    .upgrade {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 800;
+    }
 }
+
 
 @media screen and (min-width: 1281px) {
 
     .top {
         height: calc(100vh - 120px);
     }
-    
+
     footer.bottom {
         height: 120px;
     }
-    
-    .top > .sidebar {
+
+    .top>.sidebar {
         width: 308px;
         overflow: hidden;
     }
-    .top > .content {
+
+    .top>.content {
         width: calc(100% - 308px);
         overflow-y: auto;
+    }
+    #transparent {
+        height: 120px;
     }
 }
 
@@ -132,12 +170,15 @@ footer.bottom {
 .debug footer {
     background-color: palegoldenrod;
 }
+
 .debug .sidebar {
     background-color: black;
 }
-.debug .content{
+
+.debug .content {
     background-color: palevioletred;
 }
+
 .debug .sidebar_bottom {
     background-color: red;
 }

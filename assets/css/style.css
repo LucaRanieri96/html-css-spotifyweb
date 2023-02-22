@@ -150,6 +150,7 @@ footer.bottom {
 .top .sidebar_bottom {
     height: 60px;
 }
+
 .transparent {
     background-color: var(--dark);
     height: 80px;
@@ -221,7 +222,17 @@ section p {
         width: calc(100% - 270px);
         overflow-y: auto;
     }
-
+    .logo {
+        width: 60%
+    }
+    .navigation img {
+        width: 1.5rem;
+    }
+    .sbiro {
+        font-size: 20px;
+        
+    }
+    
     #transparent {
         height: 110px;
     }

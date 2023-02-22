@@ -268,20 +268,20 @@ section p {
 /* Responsive */
 @media screen and (min-width: 481px) {
     .top {
-        height: calc(100vh - 110px);
+        height: calc(100vh - 90px);
     }
 
     footer.bottom {
-        height: 110px;
+        height: 90px;
     }
 
     .top>.sidebar {
-        width: 270px;
+        width: 200px;
         overflow: hidden;
     }
 
     .top>.content {
-        width: calc(100% - 270px);
+        width: calc(100% - 200px);
         overflow-y: auto;
     }
 
@@ -376,20 +376,20 @@ section p {
 
 @media screen and (min-width: 769px) {
     .top {
-        height: calc(100vh - 130px);
+        height: calc(100vh - 90px);
     }
 
     footer.bottom {
-        height: 130px;
+        height: 90px;
     }
 
     .top>.sidebar {
-        width: 330px;
+        width: 230px;
         overflow: hidden;
     }
 
     .top>.content {
-        width: calc(100% - 330px);
+        width: calc(100% - 230px);
         overflow-y: auto;
     }
 
@@ -456,20 +456,20 @@ section p {
 @media screen and (min-width: 1281px) {
 
     .top {
-        height: calc(100vh - 120px);
+        height: calc(100vh - 100px);
     }
 
     footer.bottom {
-        height: 120px;
+        height: 100px;
     }
 
     .top>.sidebar {
-        width: 308px;
+        width: 240px;
         overflow: hidden;
     }
 
     .top>.content {
-        width: calc(100% - 308px);
+        width: calc(100% - 240px);
         overflow-y: auto;
     }
 

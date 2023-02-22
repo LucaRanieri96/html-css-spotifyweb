@@ -71,6 +71,7 @@ ul {
 #padding_green_line {
     position: relative;
 }
+
 #padding_green_line::after {
     content: '';
     position: absolute;
@@ -133,10 +134,12 @@ ul {
 .col_12 {
     width: 100%;
 }
+
 .hover_circle,
 .hover {
     position: relative;
 }
+
 .hover_circle:hover::before,
 .hover:hover::before {
     content: '';
@@ -147,9 +150,11 @@ ul {
     width: 100%;
     height: 100%;
 }
-.hover_circle:hover::before{
+
+.hover_circle:hover::before {
     border-radius: 50%;
 }
+
 .hover_circle:hover::after,
 .hover:hover::after {
     content: "\f144";
@@ -271,6 +276,56 @@ section p {
 .row [class^="col_"] {
     padding-right: 1rem;
     margin-top: 1rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot_left {
+    width: calc(100% / 3);
+    justify-content: space-evenly;
+}
+
+.bot_center {
+
+    min-width: calc(100% / 3);
+}
+
+.bot_right {
+
+    min-width: calc(100% / 3);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.left img {
+    max-width: 50%;
+    max-height: 50%;
+    padding: 8px;
+}
+.left p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.left p:first-of-type{
+    color: var(--light);
+}
+.left p:last-of-type{
+    color: var(--darkgrey);
+}
+.right {
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    color: var(--darkgrey);
+    font-size: 14px;
 }
 
 /* Responsive */
@@ -484,17 +539,21 @@ section p {
     #transparent {
         height: 120px;
     }
+
     .nav_main {
         margin: 2rem 0rem;
         font-weight: 600;
         gap: 25px;
     }
+
     .width_90 {
         width: 70%;
     }
-    .width_90 a:hover {     
+
+    .width_90 a:hover {
         color: var(--light);
     }
+
     .col_lg_1 {
         width: calc(100% / 12 * 1);
     }

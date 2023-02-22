@@ -13,12 +13,12 @@ body {
 }
 
 :root {
-    --primary: #;
-    --secondary: #;
-    --tertiary: #;
-    --free: #;
-    --light: #;
-    --dark: #;
+    --main: #141922;
+    --footer: #282828;
+    --detail: #8aca2c;
+    --grey: #c1c1c1;
+    --light: #ffffff;
+    --dark: #000000;
 }
 
 img {

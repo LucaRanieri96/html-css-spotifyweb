@@ -169,6 +169,7 @@ hr,
 .sidebar span {
     display: none;
 }
+
 .sidebar img {
     margin: 5px 0;
 }
@@ -179,15 +180,21 @@ hr,
 }
 
 .upgrade {
-    color: var(--light);
-    margin-right: 8px;
+    color: var(--darkgrey);
+    margin-right: 6px;
     padding: 0.7rem 2rem;
-    border: 1px solid var(--light);
+    border: 1px solid var(--darkgrey);
     border-radius: 2rem;
-    font-size: 0.8rem;
-    font-weight: 400;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 800;
 }
-
+.upgrade:hover {
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
 .nav_main {
     margin: 1rem;
     display: flex;
@@ -275,9 +282,11 @@ section p {
         display: flex;
         align-items: center;
     }
-    .logo_small{
+
+    .logo_small {
         display: none;
     }
+
     .profile a,
     .navigation a,
     .download a {
@@ -303,7 +312,7 @@ section p {
         color: var(--darkgrey);
         font-weight: bold;
     }
-    
+
     .download span:hover,
     .navigation span:hover,
     .sidebar .navigation ul li a:hover,
@@ -318,9 +327,11 @@ section p {
     .profile span {
         color: white;
     }
-    .sidebar i{
+
+    .sidebar i {
         font-size: 3rem;
     }
+
     hr,
     .sidebar .logo,
     .sidebar i,
@@ -354,12 +365,6 @@ section p {
 
     #transparent {
         height: 130px;
-    }
-
-    .upgrade {
-        padding: 1rem 2rem;
-        font-size: 1rem;
-        font-weight: 800;
     }
 
     .nav_main {

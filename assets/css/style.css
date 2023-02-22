@@ -180,14 +180,15 @@ footer.bottom {
     color: var(--light);
 }
 h2 {
+    font-size: 1.8rem;
     color: var(--light);
-    margin: 3rem 0;
+    margin: 3rem 0 1rem 0;
 }
-.row p {
+section p {
     color: var(--darkgrey);
     font-size: 0.7rem;
     font-weight: 800;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
 }
 .row {
     text-align: center;
@@ -195,6 +196,7 @@ h2 {
 
 .row [class^="col_"] {
     padding-right: 1rem;
+    margin-top: 1rem;
 }
 /* Responsive */
 @media screen and (min-width: 481px) {

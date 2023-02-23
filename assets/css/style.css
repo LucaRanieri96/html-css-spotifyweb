@@ -36,6 +36,9 @@ ul {
 }
 
 /* Utilities */
+.fit_content {
+    width: fit-content;
+}
 
 .d_flex {
     display: flex;
@@ -201,7 +204,8 @@ footer.bottom {
     background-color: var(--dark);
     border-radius: 5px;
     padding: 5px;
-    box-shadow: 0px -4px 2px -2px rgba(86, 86, 86, 0.794);;
+    box-shadow: 0px -4px 2px -2px rgba(86, 86, 86, 0.794);
+    ;
     position: sticky;
     z-index: 2;
 }
@@ -380,6 +384,7 @@ section p {
     justify-content: space-evenly;
     max-width: 120px;
 }
+
 .bar_insider,
 .bar_container_right,
 .bar_container {
@@ -387,7 +392,7 @@ section p {
     border-radius: 4rem;
 }
 
-.bar_container{
+.bar_container {
     width: 80%;
     background-color: var(--darkgrey);
 }
@@ -402,26 +407,28 @@ section p {
     width: 30%;
     background-color: var(--grey);
 }
+
 .bar_container:hover,
 .bar_container_right:hover {
     cursor: pointer;
-} 
+}
+
 .bar_container:hover .bar_insider::after,
 .bar_container_right:hover .bar_insider::after {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translate(50%, -50%);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: var(--grey);
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--grey);
 }
 
 .bar_container:hover .bar_insider,
 .bar_container_right:hover .bar_insider {
-  background-color: var(--detail);
+    background-color: var(--detail);
 }
 
 .bottom i:hover {
@@ -434,13 +441,15 @@ section p {
     .top {
         height: calc(100vh - 90px);
     }
+
     .center_top {
-        
+
         width: 100%;
-       
+
         min-width: 144px;
-        
+
     }
+
     .left {
         justify-content: space-evenly;
     }
@@ -448,6 +457,7 @@ section p {
     footer.bottom {
         height: 90px;
     }
+
     .bot_right,
     .bot_left {
         display: flex;
@@ -457,6 +467,7 @@ section p {
         align-items: center;
         align-self: center;
     }
+
     .top>.sidebar {
         width: 200px;
         overflow: hidden;
@@ -560,10 +571,12 @@ section p {
     .top {
         height: calc(100vh - 90px);
     }
+
     .left {
         min-width: 140px;
         max-width: 175px;
     }
+
     footer.bottom {
         height: 90px;
     }
@@ -643,6 +656,7 @@ section p {
 
 
 @media screen and (min-width: 1281px) {
+
     .bot_right,
     .bot_left {
         display: flex;
@@ -651,12 +665,15 @@ section p {
         align-items: center;
         align-self: center;
     }
+
     .center_top {
         max-width: 220px;
     }
+
     .left p {
         font-size: 14px;
     }
+
     .top {
         height: calc(100vh - 100px);
     }

@@ -289,13 +289,12 @@ section p {
 }
 
 .bot_center {
-    
+
     width: calc(100% / 3);
 }
 
 .bot_right {
-
-    min-width: calc(100% / 3);
+    width: 120px;
 }
 
 .left {
@@ -310,16 +309,20 @@ section p {
     max-height: 50%;
     padding: 8px;
 }
-.left p{
+
+.left p {
     font-size: 10px;
     font-weight: bold;
 }
-.left p:first-of-type{
+
+.left p:first-of-type {
     color: var(--light);
 }
-.left p:last-of-type{
+
+.left p:last-of-type {
     color: var(--darkgrey);
 }
+
 .right {
     flex-direction: column;
     justify-content: center;
@@ -327,10 +330,12 @@ section p {
     color: var(--darkgrey);
     font-size: 14px;
 }
+
 #big {
     font-size: 30px;
 }
-.bot_center{
+
+.bot_center {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -339,13 +344,18 @@ section p {
     height: 100%;
 
 }
+
 .center_top {
     color: white;
     display: flex;
-    gap: 5px;
-    justify-content: space-between;
+    width: 100%;
+    max-width: 144px;
+    min-width: 100px;
+    justify-content: space-evenly;
     align-items: center;
+    align-self: center;
 }
+
 .center_bottom {
     font-size: 8px;
     color: white;
@@ -353,26 +363,54 @@ section p {
     justify-content: space-between;
     align-items: center;
 }
+
 .bot_right {
     font-size: 12px;
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     max-width: 120px;
-    padding-right: 8px;
-    gap: 4px;
 }
-    
+.bar_container_right,
+.bar_container {
+    height: 5px;
+    background-color: #4d5157;
+    border-radius: 4rem;
+}
+
+.bar_container{
+    width: 80%;
+}
+
+.bar_container_right {
+    width: 50%;
+}
+
 /* Responsive */
 @media screen and (min-width: 481px) {
     .top {
         height: calc(100vh - 90px);
     }
-
+    .center_top {
+        
+        width: 100%;
+       
+        min-width: 144px;
+        
+    }
     footer.bottom {
         height: 90px;
     }
-
+    .bot_right,
+    .bot_left {
+        display: flex;
+        width: 80%;
+        max-width: 200px;
+        justify-content: space-evenly;
+        align-items: center;
+        align-self: center;
+    }
     .top>.sidebar {
         width: 200px;
         overflow: hidden;
@@ -547,6 +585,10 @@ section p {
 
     .col_md_12 {
         width: 100%;
+    }
+
+    .center_top {
+        width: 200px;
     }
 }
 

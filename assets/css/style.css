@@ -641,7 +641,9 @@ section p {
         align-items: center;
         align-self: center;
     }
-
+    .left p {
+        font-size: 14px;
+    }
     .top {
         height: calc(100vh - 100px);
     }

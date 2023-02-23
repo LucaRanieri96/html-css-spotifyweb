@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    min-width: 300px;
 }
 
 :root {
@@ -197,6 +198,9 @@ footer.bottom {
 
 .top .sidebar_bottom {
     height: 120px;
+    background-color: var(--dark);
+    position: sticky;
+    z-index: 2;
 }
 
 .transparent {
@@ -724,7 +728,7 @@ section p {
 }
 
 /* debug */
-.debug .top {
+/* .debug .top {
     background-color: aquamarine
 }
 
@@ -738,8 +742,8 @@ section p {
 
 .debug .content {
     background-color: palevioletred;
-}
+} */
 
-.debug .sidebar_bottom {
+/* .debug .sidebar_bottom {
     background-color: red;
-}
+} */

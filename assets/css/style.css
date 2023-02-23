@@ -180,7 +180,7 @@ ul {
 
 footer.bottom {
     height: 80px;
-    background-color: var(--footer);
+    background-image: linear-gradient(to top, var(--dark), var(--footer));
 }
 
 .top>.sidebar {

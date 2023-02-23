@@ -526,7 +526,7 @@ section p {
     }
 
     .download span:hover,
-    .navigation span:hover,
+    .navigation a:hover span,
     .sidebar .navigation ul li a:hover,
     .sidebar .navigation ul li a:active {
         color: var(--light);

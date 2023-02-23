@@ -402,7 +402,10 @@ section p {
     width: 30%;
     background-color: var(--grey);
 }
-
+.bar_container:hover,
+.bar_container_right:hover {
+    cursor: pointer;
+} 
 .bar_container:hover .bar_insider::after,
 .bar_container_right:hover .bar_insider::after {
   content: '';

@@ -138,6 +138,7 @@ ul {
 .hover_circle,
 .hover {
     position: relative;
+    width: fit-content;
 }
 
 .hover_circle:hover::before,
@@ -352,19 +353,12 @@ section p {
     justify-content: space-between;
     align-items: center;
 }
-.progress_bar {
-    margin: auto;
-    width: 80%;
-    height: 5px;
-    border-radius: 10px;
-    outline: none;
-}
 .bot_right {
     font-size: 12px;
     color: white;
     display: flex;
     align-items: center;
-    width: 120px;
+    max-width: 120px;
     padding-right: 8px;
     gap: 4px;
 }

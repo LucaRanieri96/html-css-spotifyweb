@@ -463,6 +463,13 @@ section p {
 
 /* Responsive */
 @media screen and (min-width: 481px) {
+
+    .scrollbar {
+        margin-top: 1rem;
+        overflow: auto;
+        height: 300px;
+    }
+
     .top {
         height: calc(100vh - 90px);
     }
@@ -567,7 +574,7 @@ section p {
     .sidebar .navigation ul li a:active {
         color: var(--light);
     }
-    
+
     hr {
         margin: 0.5rem 0;
     }

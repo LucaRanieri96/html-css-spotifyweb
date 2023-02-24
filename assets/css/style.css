@@ -506,7 +506,6 @@ section p {
     .container_side {
         width: 84%;
         margin: auto;
-        overflow-y: auto;
     }
 
     .logo {
@@ -568,7 +567,7 @@ section p {
     .sidebar .navigation ul li a:active {
         color: var(--light);
     }
-
+    
     hr {
         margin: 0.5rem 0;
     }

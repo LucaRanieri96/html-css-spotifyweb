@@ -631,8 +631,7 @@ i[class*="step"] {
     }
 
     .top>.sidebar {
-        width: 230px;
-        overflow: hidden;
+        width: 231px;
     }
 
     .top>.content {

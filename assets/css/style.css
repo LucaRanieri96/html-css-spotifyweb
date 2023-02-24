@@ -87,6 +87,14 @@ ul {
     background-color: var(--detail);
 }
 
+#var_light {
+color: var(--light);
+}
+
+#width {
+    max-width: 300px;
+}
+
 .circle {
     border-radius: 50%;
 }
